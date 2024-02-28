@@ -1,0 +1,591 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* Front Section Styles */
+#front {
+    background-image: url('skate-hero.png.adapt.crop3x2.1455w.png'); /* Replace with your actual image path or URL */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.front-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    color: #fff;
+}
+
+.front-content .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.front-content nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.front-content nav li {
+    margin-right: 20px;
+}
+
+.signup-button {
+    /* margin-right: 20px; */
+    align-self: center;
+}
+
+.signup-button a {
+    display: inline-block;
+    padding: 10px 10px;
+    background-color: orange;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.signup-button :hover {
+    background-color: rgba(0, 0, 0, 0.493);
+     
+}
+
+
+.front-content nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.front-content nav a:hover {
+    color: #FFD700;
+}
+/* Add these styles to align the content on the right side */
+.heading_container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    height: 30vh; /* Adjust the height as needed */
+    width: 91vh;
+    padding: 20px;
+    color: white;
+    /* background: #FFCC00; */
+    margin-left: 500px;
+    margin-top: 100px;
+    
+}
+
+.heading{
+    height: 20vh;
+    width: 40vh;
+    
+    /* background-color: aqua; */
+}
+.heading h1{
+    margin-top: 0;
+    font-size: 100px;
+    font-weight: bold;
+}
+.h2 {
+    max-width: 800px; /* Adjust the maximum width as needed */
+    /* background-color: bisque; */
+    margin-bottom:200px;
+    align-self: top;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    
+}
+#front {
+    background-image: url('skate-hero.png.adapt.crop3x2.1455w.png');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+
+    @media (max-width: 768px) {
+        height: 70vh;
+    }
+}
+
+.front-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    padding: 20px;
+    color: #fff;
+
+    @media (max-width: 768px) {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+
+.front-content .logo {
+    font-size: 24px;
+    font-weight: bold;
+
+    @media (max-width: 768px) {
+        margin-bottom: 10px;
+    }
+}
+
+.front-content nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 52px;
+   }
+
+.front-content nav li {
+    margin-right: 20px;
+}
+
+.signup-button a {
+    
+    @media (max-width: 768px) {
+        padding: 8px 16px;
+        display: inline-block;
+        margin-bottom: 50px;
+    }
+}
+/* Add these styles to align the content on the right side */
+.heading_container {
+   
+    @media (max-width: 768px) {
+        width: 90%;
+        margin: 20px;
+        align-items: center;
+        text-align: center;
+        height: 400px;
+        background-color: transparent;
+    
+           }
+}
+
+
+.h2 {
+   
+    @media (max-width: 768px) {
+        margin-bottom: 20px;
+        max-width: 500px;
+        
+     display: flex;
+    }
+}
+
+.signup-button a:hover {
+    background-color: rgba(0, 0, 0, 0.493);
+}
+
+.front-content nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.front-content nav a:hover {
+    color: #FFD700;
+}
+
+/* About Section Styles */
+#about {
+    background-image: url('about.jpg.adapt.1456w.jpg'); /* Replace with your actual image path or URL */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    
+}
+.about_section{
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 50px;
+    /* background-color: aqua;  */
+}
+.about_heading{
+   
+    width: 30%;
+    color: white;
+    font-size: 50px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    /* background-color: aqua; */
+}
+
+.content {
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: justify;
+    padding: 0 20px;
+
+    }
+    .content p{
+        word-spacing: 5px;
+        line-height: 30px;
+        text-align: top;
+        word-wrap: wrap;
+        color: white;
+        font-size: 20px;
+    }
+.content:hover{
+    border:5px solid rgba(255, 166, 0, 0.205)
+}
+
+
+
+.about_heading {
+    width: 30%;
+    color: white;
+    font-size: 50px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+
+    @media (max-width: 768px) {
+        width: 100%;
+        text-align: center;
+        font-size: 40px;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .about_section {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about_heading {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .content {
+        max-width: 100%;
+    }
+}
+
+/* Purchase Section Styles */
+#purchase {
+    background-image: url('purchase.jpg'); /* Replace with your actual image path or URL */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-self: center;
+    height: 100vh;
+    
+}
+.content_purchase{
+    color: #fff;
+    display: flex;
+    /* background-color: rgb(255, 17, 0); */
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.content_purchase a{
+    display: inline-block;
+    padding: 10px 70px;
+    background-color: rgba(255, 166, 0, 0.884);
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    font-size: 30px;
+
+}
+.content_purchase a:hover{
+    background-color: aqua;
+    color: black;
+}
+.purchase1{
+    width: 40%;
+    height: 50%;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    /* background-color: rgb(255, 17, 0); */
+}
+.purchase_menu{
+    font-size: 25px;
+    font-weight: bold;
+    width: 300px;
+    height: 50px;
+    border: none;
+    background-color: aqua;
+
+}
+.option_value{
+    background-color: black;
+    color: grey;
+}
+.option_value:hover{
+    background-color: aqua;
+}
+.purchase2{
+    /* background-color: bisque; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10px;
+    height: 200px;
+    
+}
+.purchase2 h1{
+    font-size: 50px;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+}
+.purchase2 p{
+    font-size: 30px;
+    font-weight: 400;
+}
+
+@media (max-width: 768px) {
+    .content_purchase {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .content_purchase a {
+        width: 30%;
+        margin-bottom: 20px;
+    }
+
+    .purchase1,
+    .purchase2 {
+        width: 100%;
+        text-align: center;
+    }
+    .purchase_menu{
+        width: 48%;
+    }
+}
+
+/* Community Section Styles */
+#community {
+    background-image: url('skate-hero-medium-discord-7x2.png.adapt.crop5x2.1455w.png'); /* Replace with your actual image path or URL */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-self: center;
+    /* margin-bottom: 50px; */
+    gap: 5px;
+}
+.community_section{
+    display: flex;
+    flex-direction: column;
+    /* background-color: #FFD700; */
+    width: 50%;
+    height: 50%;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    margin-left: 20px;
+    
+}
+.community_heading{
+    text-align: center;
+    width: 90%;
+    /* background-color: aqua; */
+    padding: 0;
+}
+.community_heading h2{
+    font-size: 50px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.content_community{
+    /* background-color: aqua; */
+    line-height: 25px;
+    width: 90%;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
+    word-wrap: nowrap;
+    text-transform: capitalize;
+    text-align: justify;
+    padding: 20px;
+}
+.join_button{
+    display: inline-block;
+    padding: 10px 20px;
+     background-color: orangered;
+    text-align: center;
+
+    
+}
+.join_button a{
+    
+    /* background-color: orangered; */
+    text-decoration: none;
+    color:#fff;
+    font-size: 20px;
+}
+.join_button:hover{
+              background-color: black;
+}
+@media (max-width: 768px) {
+            #community {
+                background-image: url('skate-hero-medium-discord-7x2.png.adapt.crop5x2.1455w.png');
+                background-attachment: fixed;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: 100% 100%; /* Change to '100% 100%' */
+                
+                display: flex;
+                align-self: center;
+                height: 90vh;
+                gap: 5px;
+        
+              }
+        
+        
+    
+    .community_section {
+        width: 80vh;
+        text-align: center;
+        margin-left: 30px;
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+    }
+
+    .content_community {
+        flex-direction: column;
+        text-align: left;
+        margin-left: 0;
+        width: 60%;
+    }
+
+    .join_button {
+        width: 40%;
+        
+    }
+}
+
+/* Add more sections with background images as needed */
+
+/* General Styles */
+.parallax-section {
+    position: relative;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    position: static;
+    bottom: 0;
+    width: 100%;
+    z-index: 100;
+}
+.footer-nav{
+    list-style: none;
+    float: left;
+}
+
+.social-links{
+    list-style: none;
+    float: right;
+}
+
+.footer-nav li,
+.social-links li{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.footer-nav li a:link,
+.footer-nav li a:visited,
+.social-links li a:link,
+.social-links li a:visited{
+    text-decoration: none;
+    border: 0;
+    color: #888;
+}
+
+.footer-nav li a:hover{
+    color: #ddd;
+}
+
+footer p{
+    color: #888;
+    text-align: center;
+    font-size: 90%;
+    margin-top: 20px;
+}
+
+.fb:hover{
+    color: #3b5998;
+    background-color: #fff;
+}
+
+.google:hover{
+    color: #dd4b39;
+    background-color: #fff;
+}
+
+.insta:hover{
+    color: #f51743;
+    background-color: #fff;
+}
+
+.twitter:hover{
+    color: #00aced;
+    background-color: #fff;
+}
+
+.social-links li a:link,
+.social-links li a:visited{
+    font-size: 160%;
+}
+.row{
+    padding-right: 50px;
+}
+
+@media (max-width: 768px) {
+    footer {
+    
+        width: 95%;
+        height: 10%;
+    }
+
+  
+}
